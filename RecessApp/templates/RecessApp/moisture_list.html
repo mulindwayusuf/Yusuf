@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soil Moisture Readings</title>
+</head>
+<body>
+    <h1>Soil Moisture Readings</h1>
+    <ul>
+        {% for reading in readings %}
+            <li>{{ reading.timestamp }} - {{ reading.moisture_level }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
