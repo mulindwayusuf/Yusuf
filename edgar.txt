@@ -1,2 +1,0 @@
-I am Katuramu Edgar and I love python.
-I use python for automation
